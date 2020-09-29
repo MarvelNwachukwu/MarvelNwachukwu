@@ -1,5 +1,7 @@
 ### Hi there 👋
-
+I'm Marvellous Nwachukwu,
+I'm currently learning CSS and JavaScript.
+You can reach out to me on Instagram via my IG handle "marvel.codes"
 <!--
 **MarvelNwachukwu/MarvelNwachukwu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
