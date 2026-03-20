@@ -1,8 +1,8 @@
   name: Generate Snake                                                                                    
                                                                                                             
-  on:                                                                                                       
+  on:                                                                                                     
     schedule:
-      - cron: "0 0 * * *" # runs daily at midnight
+      - cron: "0 0 * * *"
     workflow_dispatch:
 
   jobs:
@@ -13,8 +13,9 @@
           with:
             github_user_name: MarvelNwachukwu
             outputs: |
-              dist/github-snake.svg
-              dist/github-snake-dark.svg?palette=github-dark
+              dist/github-snake.svg?color_snake=#F75C7E&color_dots=#ebedf0,#fce4ec,#f8a4b8,#f57a95,#F75C7E
+   
+  dist/github-snake-dark.svg?color_snake=#F75C7E&color_dots=#0d1117,#2a1520,#5c2035,#a3364f,#F75C7E
 
         - uses: crazy-max/ghaction-github-pages@v3
           with:
